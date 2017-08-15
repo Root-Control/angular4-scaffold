@@ -1,0 +1,29 @@
+<div id="page-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Inicio</h1>
+                <button class="btn btn-success" (click)="testService()">Test Service</button>
+            </div>
+            <table class="table table-responsive">
+            	<thead>
+	            	<th>Interpolación 1</th>
+	            	<th>Interpolación 2</th>
+	            	<th>Interpolación 3</th>            		
+            	</thead>
+            	<tbody>
+            		<tr>
+            			<td>{{ interpolacion1 }}</td>
+            			<td>{{ interpolacion2 }}</td>
+            			<td>{{ interpolacion3 }}</td>
+            		</tr>
+            		<tr>
+            			<td><label class="label label-warning">Mala práctica (private)</label></td>
+            			<td><label class="label label-success">Ok</label></td>
+            			<td><label class="label label-success">Ok</label></td>
+            		</tr>
+            	</tbody>
+            </table>
+        </div>
+    </div>
+</div>
